@@ -169,9 +169,24 @@ border: none;
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background-image: url("https://source.unsplash.com/featured?food");
+    background-image: url("https://source.unsplash.com/featured?fox");
     background-size: cover;
-
+    
+}
+#thali{
+    background-image: url("https://source.unsplash.com/featured?food");
+}
+#chinesFood{
+    background-image: url("https://source.unsplash.com/featured?chinese food");
+}
+#southIndian{
+    background-image: url("https://source.unsplash.com/featured?southIndianfood");
+}
+#breakfast{
+    background-image: url("https://source.unsplash.com/featured?breakfast");
+}
+#salad{
+    background-image: url("https://source.unsplash.com/featured?salad");
 }
 .explore div div:nth-child(2){
     text-align: center;
@@ -201,7 +216,8 @@ padding: 10px;
     background-image: url("images/gr11gb55-grab-food-logo-grabfood-logo-download-vector.png");
     background-size: contain;
     background-repeat: no-repeat;
-    margin: 10px;
+    margin: 20px;
+    height: 40px;
     
 }
 .foot:nth-child(2){
@@ -209,6 +225,10 @@ padding: 10px;
     font-weight: lighter;
     text-align: center;
 }
+.thali{
+
+}
+.chinesFood{}
 .foot{
     height: 100px;
     width: 33.3%;
